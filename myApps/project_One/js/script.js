@@ -77,4 +77,40 @@ switch (number) {
         console.log('Не в этот раз');  
 }
 
+// Cycle ( циклы )
+
+let numero = 50;
+
+while (numero <= 55) {
+    console.log(numero);
+    numero++;
+}
+
+let numero1 = 50;
+
+do {
+    console.log(numero1);
+    numero1++;
+}
+while (numero1 < 55);
+
+let numero2 = 50;
+
+for (let i = 1; i < 8; i++) {
+    console.log(numero2);
+    numero2++;
+}
+
+for (let i = 1; i < 10; i++) {
+    if (i === 6) {
+        //break;
+        continue;
+    }
+
+    console.log(i);
+}
+
+
+
+
 
